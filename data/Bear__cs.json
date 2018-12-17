@@ -1,0 +1,154 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Bear__c",
+                "referenceId": "Bear__cRef1"
+            },
+            "Name": "Cindy",
+            "Birthdate__c": "2013-12-23",
+            "Sex__c": "Female",
+            "Height__c": 2016,
+            "Weight__c": 269,
+            "Location__Latitude__s": 45.34276,
+            "Location__Longitude__s": 5.72715,
+            "Observations__c": "Lovely bear",
+            "Supervisor__c": "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Bear__c",
+                "referenceId": "Bear__cRef2"
+            },
+            "Name": "Little John",
+            "Birthdate__c": "2005-07-18",
+            "Sex__c": "Male",
+            "Height__c": 2094,
+            "Weight__c": 278,
+            "Location__Latitude__s": 45.382705,
+            "Location__Longitude__s": 5.781569,
+            "Observations__c": "Intelligent and highly capable",
+            "Supervisor__c": "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Bear__c",
+                "referenceId": "Bear__cRef3"
+            },
+            "Name": "Winnie",
+            "Birthdate__c": "2014-05-06",
+            "Sex__c": "Male",
+            "Height__c": 2043,
+            "Weight__c": 293,
+            "Location__Latitude__s": 45.392717,
+            "Location__Longitude__s": 5.791562,
+            "Observations__c": "Loves honey",
+            "Supervisor__c": "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Bear__c",
+                "referenceId": "Bear__cRef4"
+            },
+            "Name": "Flippy",
+            "Birthdate__c": "2003-12-03",
+            "Sex__c": "Male",
+            "Height__c": 2015,
+            "Weight__c": 317,
+            "Location__Latitude__s": 45.372741,
+            "Location__Longitude__s": 5.717121,
+            "Observations__c": "Unpredictable, sometimes \"flips out\"",
+            "Supervisor__c": "@ContactRef2"
+        },
+        {
+            "attributes": {
+                "type": "Bear__c",
+                "referenceId": "Bear__cRef5"
+            },
+            "Name": "Oxsana",
+            "Birthdate__c": "2006-05-17",
+            "Sex__c": "Female",
+            "Height__c": 2028,
+            "Weight__c": 276,
+            "Location__Latitude__s": 45.30276,
+            "Location__Longitude__s": 5.719151,
+            "Observations__c": "From Kazakhstan",
+            "Supervisor__c": "@ContactRef2"
+        },
+        {
+            "attributes": {
+                "type": "Bear__c",
+                "referenceId": "Bear__cRef6"
+            },
+            "Name": "Baloo",
+            "Birthdate__c": "2001-11-19",
+            "Sex__c": "Male",
+            "Height__c": 2157,
+            "Weight__c": 326,
+            "Location__Latitude__s": 45.342761,
+            "Location__Longitude__s": 5.707158,
+            "Observations__c": "Always happy",
+            "Supervisor__c": "@ContactRef2"
+        },
+        {
+            "attributes": {
+                "type": "Bear__c",
+                "referenceId": "Bear__cRef7"
+            },
+            "Name": "Ulfsaar",
+            "Birthdate__c": "2011-01-08",
+            "Sex__c": "Female",
+            "Height__c": 2105,
+            "Weight__c": 287,
+            "Location__Latitude__s": 45.382721,
+            "Location__Longitude__s": 5.811562,
+            "Observations__c": "Likes to fight",
+            "Supervisor__c": "@ContactRef2"
+        },
+        {
+            "attributes": {
+                "type": "Bear__c",
+                "referenceId": "Bear__cRef8"
+            },
+            "Name": "Po Ping",
+            "Birthdate__c": "2004-10-04",
+            "Sex__c": "Male",
+            "Height__c": 2178,
+            "Weight__c": 317,
+            "Location__Latitude__s": 45.372708,
+            "Location__Longitude__s": 5.801563,
+            "Observations__c": "Energetic and overweight",
+            "Supervisor__c": "@ContactRef3"
+        },
+        {
+            "attributes": {
+                "type": "Bear__c",
+                "referenceId": "Bear__cRef9"
+            },
+            "Name": "Ungnyeo",
+            "Birthdate__c": "2003-06-27",
+            "Sex__c": "Female",
+            "Height__c": 2026,
+            "Weight__c": 259,
+            "Location__Latitude__s": 45.365702,
+            "Location__Longitude__s": 5.771571,
+            "Observations__c": "Dwells in a cave and eat very little",
+            "Supervisor__c": "@ContactRef3"
+        },
+        {
+            "attributes": {
+                "type": "Bear__c",
+                "referenceId": "Bear__cRef10"
+            },
+            "Name": "Ted",
+            "Birthdate__c": "2011-02-04",
+            "Sex__c": "Male",
+            "Height__c": 2086,
+            "Weight__c": 279,
+            "Location__Latitude__s": 45.332761,
+            "Location__Longitude__s": 5.717158,
+            "Observations__c": "Bear with attitude",
+            "Supervisor__c": "@ContactRef3"
+        }
+    ]
+}

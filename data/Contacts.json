@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "FirstName": "Clémence",
+            "LastName": "Silvae",
+            "Salutation": "Ms.",
+            "Title": "Junior Ranger",
+            "Phone": "(987) 654-3210",
+            "Email": "clemence.silvae@ursus-sample.com"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef2"
+            },
+            "FirstName": "Victor",
+            "LastName": "Faunust",
+            "Salutation": "Mr.",
+            "Title": "Head Ranger",
+            "Phone": "(123) 456-6789",
+            "Email": "victor.faunust@ursus-sample.com"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef3"
+            },
+            "FirstName": "Joe",
+            "LastName": "Smith",
+            "Salutation": "Mr.",
+            "Title": "Ranger",
+            "Phone": "(123) 456-6788",
+            "Email": "joe.smith@ursus-sample.com"
+        }
+    ]
+}

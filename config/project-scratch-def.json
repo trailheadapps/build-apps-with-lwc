@@ -1,0 +1,12 @@
+{
+    "orgName": "ursus-park",
+    "edition": "Developer",
+    "language": "en_US",
+    "hasSampleData": "false",
+    "settings": {
+        "orgPreferenceSettings": {
+            "s1DesktopEnabled": true,
+            "s1EncryptedStoragePref2": false
+        }
+    }
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Contact",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Contacts.json"
+        ]
+    },
+    {
+        "sobject": "Bear__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Bear__cs.json"
+        ]
+    }
+]
