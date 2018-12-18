@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compact_Contact</fullName>
+    <fields>Name</fields>
+    <fields>Title</fields>
+    <fields>Phone</fields>
+    <fields>Email</fields>
+    <label>Compact Contact</label>
+</CompactLayout>
