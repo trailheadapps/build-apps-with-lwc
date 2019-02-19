@@ -1,0 +1,18 @@
+<template>
+    <!--lightning-card title="Lightning Web Component" icon-name="custom:custom14"-->
+    <lightning-card title={capitalizedGreeting} icon-name="custom:custom14">
+		<div class="slds-m-around_medium">
+            <!--
+                <h2>Hello {greeting}!</h2>
+            -->
+            <p>Today is {currentDate}</p>
+            
+            <!--This code adds a text input field styled with SLDS. 
+                The input is initialized with the greeting property. 
+                Whenever the input changes, it calls a handleGreetingChange JavaScript function that we define in the next step.
+            -->
+            <lightning-input label="Name" value={greeting} onchange={handleGreetingChange}></lightning-input>
+
+		</div>
+	</lightning-card>
+</template>
