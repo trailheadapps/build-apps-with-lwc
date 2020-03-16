@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title={bear.Name} class="bear-tile">
+        <div slot="actions">
+            <lightning-button-icon icon-name="utility:search" icon-class="bear-tile-button" variant="bare"
+                alternative-text="Open record" onclick={handleOpenRecordClick}>
+            </lightning-button-icon>
+        </div>
+        <div class="slds-p-horizontal_small">
+            <div class="slds-media">
+                <div class="slds-media__figure">
+                    <img src={appResources.bearSilhouette} alt="Bear profile" class="bear-silhouette" />
+                </div>
+                <div class="slds-media__body">
+                    <p class="slds-m-bottom_xx-small">{bear.Sex__c}</p>
+                    <p class="slds-m-bottom_xx-small">{bear.Age__c} years old</p>
+                    <p class="slds-m-bottom_xx-small">{bear.Height__c} cm</p>
+                    <p class="slds-m-bottom_xx-small">{bear.Weight__c} Kg</p>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="User Details" icon-name="custom:custom5">
+        <div class="slds-m-around_medium">
+            <lightning-input label="Id" disabled value={accountId}> </lightning-input>
+            <lightning-input name="name" label="Name" onchange={changehandlername} class="slds-m-bottom_x-small">
+            </lightning-input>
+            <lightning-input name="phone" label="Phone" onchange={changehandlerphone} class="slds-m-bottom_x-small">
+            </lightning-input>
+            <lightning-button label="Create acccount" variant="brand" onclick={createAccount}
+                class="slds-m-right_x-small"></lightning-button>
+            <lightning-button variant="brand" label="Cancel" varient="brand" onclick={cancel}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>
