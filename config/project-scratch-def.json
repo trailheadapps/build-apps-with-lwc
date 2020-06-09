@@ -2,7 +2,7 @@
     "orgName": "ursus-park",
     "edition": "Developer",
     "language": "en_US",
-    "hasSampleData": "false",
+    "hasSampleData": false,
     "settings": {
         "orgPreferenceSettings": {
             "s1DesktopEnabled": true,
