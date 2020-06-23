@@ -3,16 +3,12 @@
         "sobject": "Contact",
         "saveRefs": true,
         "resolveRefs": false,
-        "files": [
-            "Contacts.json"
-        ]
+        "files": ["Contacts.json"]
     },
     {
         "sobject": "Bear__c",
         "saveRefs": false,
         "resolveRefs": true,
-        "files": [
-            "Bear__cs.json"
-        ]
+        "files": ["Bear__cs.json"]
     }
 ]
