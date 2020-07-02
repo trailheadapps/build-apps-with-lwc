@@ -4,7 +4,6 @@ about: Please report issues via the Trailhead feedback form
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
 Hi Trailblazer,

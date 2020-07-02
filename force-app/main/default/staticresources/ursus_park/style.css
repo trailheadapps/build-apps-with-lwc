@@ -1,0 +1,22 @@
+.bear-tile:hover .slds-card {
+    border: 1px solid #9b724b;
+    background-color: #f5ebe1;
+}
+
+.bear-tile .slds-card {
+    border: 1px solid #d2955d;
+    background-color: #fbf6f0;
+    transition: border 0.5s, background-color 0.5s;
+}
+
+.bear-tile .slds-card__header {
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #d2955d;
+    border-radius: 4px 4px 0 0;
+    background-color: #d2955d78;
+    color: #2d5319;
+}
+
+.bear-tile-button {
+    fill: #2d5319;
+}
