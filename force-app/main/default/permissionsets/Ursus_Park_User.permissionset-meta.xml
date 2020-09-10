@@ -4,6 +4,10 @@
         <application>Ursus_Park</application>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>BearController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <description>User permissions for Ursus Park App</description>
     <fieldPermissions>
         <editable>false</editable>
