@@ -1,0 +1,7 @@
+<template>
+	<lightning-card title="Lightning Web Component" icon-name="custom:custom14">
+		<div class="slds-var-m-around_medium">
+			<h2>Hello World!</h2>
+		</div>
+	</lightning-card>
+</template>
