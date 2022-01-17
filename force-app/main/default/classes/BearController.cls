@@ -14,6 +14,7 @@ public with sharing class BearController {
                 Supervisor__r.Name
             FROM Bear__c
             ORDER BY Name
+            WITH SECURITY_ENFORCED
             LIMIT 50
         ];
     }
@@ -42,6 +43,7 @@ public with sharing class BearController {
             FROM Bear__c
             WHERE Name LIKE :searchTerm
             ORDER BY Name
+            WITH SECURITY_ENFORCED
             LIMIT 50
         ];
     }
