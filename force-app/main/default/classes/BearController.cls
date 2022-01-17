@@ -13,8 +13,8 @@ public with sharing class BearController {
                 Location__Longitude__s,
                 Supervisor__r.Name
             FROM Bear__c
-            ORDER BY Name
             WITH SECURITY_ENFORCED
+            ORDER BY Name
             LIMIT 50
         ];
     }
@@ -42,8 +42,8 @@ public with sharing class BearController {
                 Supervisor__r.Name
             FROM Bear__c
             WHERE Name LIKE :searchTerm
-            ORDER BY Name
             WITH SECURITY_ENFORCED
+            ORDER BY Name
             LIMIT 50
         ];
     }
