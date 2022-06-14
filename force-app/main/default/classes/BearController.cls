@@ -1,5 +1,5 @@
 public with sharing class BearController {
-    @AuraEnabled(Cacheable=true)
+    @AuraEnabled(cacheable=true scope='global')
     public static Bear__c[] getAllBears() {
         return [
             SELECT
@@ -19,7 +19,7 @@ public with sharing class BearController {
         ];
     }
 
-    @AuraEnabled(Cacheable=true)
+    @AuraEnabled(cacheable=true scope='global')
     public static Bear__c[] searchBears(String searchTerm) {
         // Return all bears when no search term
         searchTerm = searchTerm.trim();
