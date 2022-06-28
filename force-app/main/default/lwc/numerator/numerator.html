@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Numerator" icon-name="action:manage_perm_sets">    
+        <p class="slds-text-align_center slds-var-m-vertical_medium">
+          Count: <lightning-formatted-number value={counter}></lightning-formatted-number>
+        </p>
+        <!-- controls go here -->
+        <c-controls
+        class="slds-show slds-is-relative"
+        onadd={handleIncrement}
+        onsubtract={handleDecrement}
+        onmultiply={handleMultiply}>
+      </c-controls>
+      </lightning-card>
+</template>
