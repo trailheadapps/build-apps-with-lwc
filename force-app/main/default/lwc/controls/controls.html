@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title="Controls" icon-name="action:upload">
+        <lightning-layout>
+          <lightning-layout-item flexibility="auto" padding="around-small">
+            <lightning-button
+              label="Subtract"
+              icon-name="utility:dash"
+              onclick={handleSubtract}>
+            </lightning-button>
+          </lightning-layout-item>
+          <lightning-layout-item flexibility="auto" padding="around-small">
+            <!-- buttons go here -->
+          </lightning-layout-item>
+          <lightning-layout-item flexibility="auto" padding="around-small">
+            <lightning-button
+              label="Add"
+              icon-name="utility:add"
+              onclick={handleAdd}
+              icon-position="right">
+            </lightning-button>
+          </lightning-layout-item>
+        </lightning-layout>
+      </lightning-card>
+</template>

@@ -2,34 +2,31 @@
 	<lightning-card title="Bears" icon-name="utility:animal_and_nature">
 		<div class="slds-card__body slds-card__body_inner">
 			<!-- Start bear list -->
-			<template if:true={bears}>
+			<template if:true={bears.data}>
+				<lightning-input type="search"
+					onchange={handleSearchTermChange}
+					variant="label-hidden"
+					class="slds-var-m-bottom_small"
+					label="Search"
+					placeholder="Search for bears"
+					value={searchTerm}>
+				</lightning-input>
 				<lightning-layout multiple-rows="true" pull-to-boundary="small">
-					<template for:each={bears} for:item="bear">
+					<template for:each={bears.data} for:item="bear">
 						<lightning-layout-item key={bear.Id} size="3" class="slds-var-p-around_x-small">
-							<!-- Start bear tile -->
-							<lightning-card title={bear.Name} class="bear-tile">
-								<div class="slds-var-p-horizontal_small bear-tile-body">
-									<div class="slds-media">
-										<div class="slds-media__figure">
-											<img src={appResources.bearSilhouette} alt="Bear profile" class="bear-silhouette"/>
-										</div>
-										<div class="slds-media__body">
-											<p class="slds-var-m-bottom_xx-small">{bear.Sex__c}</p>
-											<p class="slds-var-m-bottom_xx-small">{bear.Age__c} years old</p>
-											<p class="slds-var-m-bottom_xx-small">{bear.Height__c} cm</p>
-											<p class="slds-var-m-bottom_xx-small">{bear.Weight__c} Kg</p>
-										</div>
-									</div>
-								</div>
-							</lightning-card>
-							<!-- End bear tile -->
-						</lightning-layout-item>
+							<c-bear-tile bear={bear} onbearview={handleBearView}></c-bear-tile>						</lightning-layout-item>
 					</template>
 				</lightning-layout>
+				<!-- No bears found -->
+				<template if:false={hasResults}>
+					<div class="slds-align_absolute-center slds-var-m-vertical_small">
+						This is beary disturbing, we did not find results...
+					</div>
+				</template>
 			</template>
 			<!-- End bear list -->
 			<!-- Data failed to load -->
-			<template if:true={error}>
+			<template if:true={bears.error}>
 				<div class="slds-text-color_error">
 					An error occurred while loading the bear list
 				</div>
