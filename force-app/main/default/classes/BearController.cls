@@ -15,7 +15,7 @@ public with sharing class BearController {
             FROM Bear__c
             WITH SECURITY_ENFORCED
             ORDER BY Name
-            LIMIT 50
+            LIMIT 100
         ];
     }
 
